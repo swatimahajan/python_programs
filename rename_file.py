@@ -8,8 +8,7 @@ def rename_files():
     directory = os.getcwd()
     print "current working directory is ",directory
     #change directory
-    d= os.chdir("prank")
-    print d
+    os.chdir("prank")
     #rename all the file in the folder prank
     for file_name in file_list:
         #translate is used to remove all numbers from filename
